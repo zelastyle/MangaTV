@@ -1,0 +1,56 @@
+#perfilContainer {
+    width:90%;
+    overflow:hidden;
+    margin:auto;
+    margin-top: -30px;
+}
+
+#imagenPerfil {
+    float:left;
+    width:30%;
+    height: 350px;;  
+}
+
+#imagenPerfil img {
+    width: 60%;
+    height: 73%;
+    margin-left: 20%;
+    margin-bottom:30px;
+}
+
+#imagenPerfil input {
+    padding:20px;
+}
+
+
+
+#detallesPerfil {
+    float:right;
+    width:65%;
+    height: 500px;
+    margin:auto;
+}
+
+#detallesPerfil .filas{
+    height: 13%;
+    width: 90%;
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+}
+
+#detallesPerfil .filas p {
+    padding:20px;
+    font-size:20px;
+    color:gray;
+    
+}
+
+#modificacion input {
+    margin-top: 60px;;
+    background: rgba(0,0,0,.3);
+    padding:15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+    margin-right: 15px;
+}
